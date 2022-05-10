@@ -19,7 +19,7 @@ namespace ZBmarket
             InitializeComponent();
         
         }
-        NpgsqlConnection baglanti = new NpgsqlConnection("Server=localhost; Port=5432; Database=ZBmarket; User Id=postgres; Password=134105");
+        NpgsqlConnection baglanti = new NpgsqlConnection("Server=localhost; Port=5432; Database=ZBmarket; User Id=postgres; Password=");
 
         bool personel = false;
         
